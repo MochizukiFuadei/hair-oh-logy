@@ -1,0 +1,268 @@
+/* CSS Document */
+@font-face {
+    font-family: firsttake;
+    src: url('../fonts/First Take - Demo 2.ttf');
+}
+@font-face {
+    font-family: kateceleb;
+    src: url('../fonts/KateCelebration.ttf');
+}
+@font-face {
+    font-family: gothambook;
+    src: url('../fonts/Gotham-Book.otf');
+}
+body{
+	font-family:gothambook;
+	font-size:2vh;
+	overflow-x: hidden;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+/*section*/
+@media screen and (min-width: 481px) {
+	.s-one{
+		background:url('../images/1-bg.jpg') top left ;
+		width:100%;
+		height:770px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.s-one{
+		background:url('../images/1-bg-mobile.jpg') top left 100% ;
+		width:100%;
+		height:720px;
+	}
+}
+.s-two{
+	background:#578e91;
+	width:100%;
+	padding-bottom:40px;
+	height:auto;
+}
+.s-three{
+	background:#FFF;
+	width:100%;
+	padding-bottom:70px;
+}
+.s-four{
+	background:#FFF;
+	width:100%;
+	padding-bottom:30px;
+}
+.s-five{
+	background:#578e91;
+	width:100%;
+	padding-bottom:20px;
+}
+.s-six{
+	background:#FFF;
+	width:100%;
+	padding-bottom:70px;
+}
+.s-seven{
+	background:#578e91;
+	width:100%;
+	padding-bottom:70px;
+}
+.s-eight{
+	background:#FFF;
+	width:100%;
+	padding-bottom:70px;
+}
+.s-nine{
+	background:#FFF;
+	width:100%;
+	padding-bottom:70px;
+}
+.s-ten{
+	background:#246770;
+	width:100%;
+	padding-bottom:20px;
+}
+/*!section*/
+/*misc*/
+.img-s-1{
+	position:absolute;
+	right:10%;
+}
+.img-s-2{
+	position:absolute;
+	right:22%;
+	margin-top:15%;
+}
+.img-s-1m{
+	position:absolute;
+	right:2%;
+	margin-top:20%;
+	width:90%;
+}
+.img-s-2m{
+	position:absolute;
+	right:15%;
+	margin-top:50%;
+	width:90%;
+}
+.text-right{
+	text-align:right!important;
+}
+.title-content{
+	font-family:firsttake;
+}
+.text{
+	line-height:3vh!important;
+}
+.text-white{
+	color:#FFF!important;
+}
+.text-orange{
+	color:#ff9900!important;
+}
+.text-aqua{
+	color:#7efff5!important;
+}
+.text-tosca{
+	color:#469d91!important;
+}
+.box-grey{
+	background:#f2f1ef;
+	padding:15px!important;
+	z-index:1!important;
+	width:80%;
+}
+@media screen and (min-width: 481px) {
+	.agak-atas{
+		margin-top:-100px!important;
+	}
+	.agak-atas2{
+		margin-top:-130px!important;
+	}
+	.box-grey{
+		background:#f2f1ef;
+		padding:15px!important;
+		z-index:1!important;
+		width:80%;
+	}
+	.img-person {
+		
+	}
+	.img-s-3{
+		position:absolute;
+		right:56%;
+		margin-top:3%;
+	}
+	.img-s-4{
+		position:absolute;
+		right:55%;
+		margin-top:8%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.agak-atas{
+		margin-top:0!important;
+	}
+	.agak-atas2{
+		margin-top:-25%!important;
+	}
+	.box-grey{
+		background:#f2f1ef;
+		padding:15px!important;
+		margin-bottom:10%!important;
+		z-index:1!important;
+		width:80%;
+	}
+	.img-person {
+		width:60%;
+	}
+	.img-s-3{
+		position:absolute;
+		right:40%;
+		margin-top:10%;
+		width:50%;
+	}
+	.img-s-4{
+		position:absolute;
+		right:40%;
+		margin-top:25%;
+		width:40%;
+	}
+	.img-s-5{
+		width:60%;
+		float:right;
+	}
+}
+.pos-relative{
+	position:relative;
+}
+.absolute-right{
+	position:absolute;
+	right:5%!important;
+}
+.absolute-left{
+	position:relative;
+	left:5%!important;
+}
+.absolute-bottom{
+	position:absolute;
+	bottom:5%!important;
+}
+.absolute-top{
+	position:relative;
+	top:5%!important;
+}
+.person{
+	font-family:kateceleb!important;
+	font-size:2.5vh;
+}
+.absolute-custom-1{
+	position:absolute;
+	right:10%;
+	top:30%;
+}
+.absolute-custom-2{
+	position:absolute;
+	bottom:0;
+}
+.marbot{
+	margin-bottom:50px!important;
+}
+.panah-atas{
+	position:absolute;
+	top:10%;
+	left:40%;
+}
+.panah-bawah{
+	position:absolute;
+	bottom:0;
+	left:40%;
+}
+.panah-kanan{
+	position:absolute;
+	top:46%;
+	right:4%;
+}
+.panah-kiri{
+	position:absolute;
+	top:46%;
+	left:4%;
+}
+.rotate200{
+	transform: rotate(200deg);
+}
+.rotate180{
+	transform: rotate(180deg);
+}
+.anmted-fill-none{
+	animation-fill-mode: none!important;
+	z-index:1;
+}
+.pull-left{
+	float:left;
+}
+.pull-right{
+	float:right;
+}
+/*!misc*/
