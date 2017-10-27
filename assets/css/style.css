@@ -193,6 +193,9 @@ a:hover{
 		width:60%;
 		float:right;
 	}
+	.video{
+		width:100%
+	}
 }
 .pos-relative{
 	position:relative;
