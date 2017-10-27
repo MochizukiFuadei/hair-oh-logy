@@ -194,7 +194,7 @@ a:hover{
 		float:right;
 	}
 	.video{
-		width:100%
+		max-width:100%
 	}
 }
 .pos-relative{
