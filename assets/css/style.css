@@ -133,6 +133,9 @@ a:hover{
 	z-index:1!important;
 	width:80%;
 }
+.video{
+	max-width:100%;
+	}
 @media screen and (min-width: 481px) {
 	.agak-atas{
 		margin-top:-100px!important;
@@ -158,9 +161,6 @@ a:hover{
 		position:absolute;
 		right:55%;
 		margin-top:8%;
-	}
-	.video{
-		max-width:100%
 	}
 }
 @media screen and (max-width: 480px) {
