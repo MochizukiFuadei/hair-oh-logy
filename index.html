@@ -175,6 +175,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				  <div class="swiper-slide"><img src="assets/images/5-survey3.png" class="responsive-img animated wow slideInUp"></div>
 				  <div class="swiper-slide"><img src="assets/images/5-survey4.png" class="responsive-img animated wow slideInUp"></div>
 				</div>
+				<!-- Add Arrows -->
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
 			  </div>
             <div class="row pos-relative hide-on-small-only">
                 <img src="assets/images/5-panah-samping.png" class="panah-atas   animated wow slideInUp anmted-fill-none">
@@ -423,7 +426,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	  $(document).ready(function(){
 		// the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
 		$('.modal').modal();
-		var swiper = new Swiper('.swiper-container');
+		var swiper = new Swiper('.swiper-container', {
+		  navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		  },
+		});
 	  });
         new WOW().init();
 
